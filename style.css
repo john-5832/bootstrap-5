@@ -50,7 +50,7 @@
 }
 .slider1 a, .slider2 a, .slider3 a{
     height:60px;
-    width: 55%;
+    width: 70%;
     font-size: 14px;
     border-style: hidden;
     padding-top: 20px;
@@ -66,13 +66,12 @@
        background-color:#ff4400;
        text-decoration: none;
 }
-
  .carousel-item{
     height: 650px;
 }
 .page2{
     width: 100%;
-    height: 530px;
+    height: 700px;
 }
 .page2 .one{
     font-size: 36px;
@@ -97,30 +96,28 @@
     color: #ff4400;
     text-decoration: none;
 }
-.content3 .d{
+.content3 .d , .page3 .head1{
     font-size: 30px;
     font-weight: bold;
 }
-.content3 .e , .content3 .f{
+.content3 .e , .content3 .f , .page3 .head2{
       font-size: 22px;
       font-weight: 100;
       color: #7c7c7c;
 }
-.content3 .small{
+.content3 .small , .page3 .head3{
     font-family: Arial, Helvetica, sans-serif;
     color: #7c7c7c;
     font-weight: 850;
     font-size: 12px;
 }
- @media screen and (max-width:768px){
-    
+ @media screen and (max-width:768px){ 
     div.bar1{
         order: 2;
-        
     }
     div.bar2{
         order: 1;
-        / width: 84px; /
+        width: 84px; 
     }
     div.bar3{
         order: 3;
@@ -129,7 +126,6 @@
         font-size: 42px;
       }
 } 
-
 @media screen and (max-width:320px){
    .navbar-toggler{
     padding-left: 0px;
@@ -139,13 +135,23 @@
     margin-left: -10px;
    }
    .bar1{
-    margin-left: -10px;
+    margin-left: -30px;
    }
    .bar3{
-    margin-left: 20px;
+    margin-left: 70px;
+    margin-top: 5px;
    }
   .slider1 h1, .slider2 h1, .slider3 h1{
     font-size: 42px;
+  }
+  .page2{
+    margin-top: -450px;
+  }
+  .page2 .two{
+    margin-top: -100px;
+  }
+  .carousel-indicators{
+
   }
 } 
 @media screen and (min-width:1024px){
